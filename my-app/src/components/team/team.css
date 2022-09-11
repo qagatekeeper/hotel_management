@@ -1,0 +1,71 @@
+.team-wrapper {
+  background: var(--bg-about);
+  width: 100vw;
+  height: auto;
+  padding: 100px 0 70px 0 ;
+}
+
+.team-tab-list {
+  margin-left: 17px;
+}
+
+.team-tab-item {
+  display: inline-block;
+  padding: 13px 15px;
+  margin: 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.team-tab-item-active {
+  opacity: 1;
+}
+
+.team-img {
+  border-radius: 100%;
+}
+
+.team-list-tab-img {
+  margin-left: 4rem;
+  padding: 30px;
+}
+.team-list-container-tab{
+  display: none;
+}
+.team-list-container-tab-active{
+  display:flex;
+}
+.team-info {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.team-info-title {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  margin: 0;
+  font-family: "Federo", sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--color-text);
+  text-transform: capitalize;
+}
+
+.team-info-post {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-teamPost);
+  font-weight: 400;
+}
+
+.team-info-para {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: var(--color-link-blue);
+  text-transform: none;
+  line-height: 30px;
+  margin: 1.5rem 0 1rem;
+  padding: 0;
+  width: 450px;
+}

@@ -1,0 +1,78 @@
+.payment-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 5px;
+}
+/* ===Top=== */
+.payment-top-left {
+  gap: 0.4rem;
+}
+.payment-top-left select {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: #555;
+  background-color: var(--white);
+  border: 1px solid #ccc;
+  height: 30px;
+  transition: border 0.5s;
+}
+.payment-top-left select:focus {
+  border: 1px solid var(--color-link-blue);
+}
+.payment-top-left small {
+  font-size: 0.9rem;
+  color: #333333;
+}
+.payment-top-right {
+  gap: 0.4rem;
+}
+.payment-top-right label {
+  font-size: 1rem;
+  color: #555;
+  background-color: var(--white);
+}
+.payment-top-right input {
+  padding: 5px 10px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.payment-top-right input:focus {
+  border: 1px solid var(--color-link-blue);
+}
+
+/* ===Center=== */
+
+.payment-center-table {
+  width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.payment-center-table thead,
+.payment-center-table tbody {
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+.payment-center-table thead tr th {
+  padding: 8px;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.payment-center-table tbody tr td {
+  padding: 12px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}

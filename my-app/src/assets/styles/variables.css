@@ -1,0 +1,31 @@
+:root {
+  --white: #f8f8f8;
+  --black: #000000;
+  --color-link-blue: #337ab7;
+  --color-black: #101010;
+  --color-yellow: #c79f07;
+  --color-text: #212121;
+  --color-light-gray: #777;
+  --color-teamPost: #7d7a7a;
+  --color-red: #ef0404;
+  --color-para: #444;
+
+  --border-yellow: #ecbf11;
+
+  --bg-facebook: #4d669c;
+  --bg-twitter: #1da1f2;
+  --bg-google: #d34836;
+  --bg-wifi: #ee802f;
+  --bg-yellow: #ffce14;
+  --bg-blue: #0f2453;
+  --bg-card: #344a7117;
+  --bg-card-hover: #0f2453;
+  --bg-about: #eceef2;
+  --bg-btn: #2e6da4;
+
+  --border-card: #d1d7e4;
+
+  --bg-reservation-left: #09192a;
+  --bg-reservation-right: #e5ebf2;
+  --c-text:#333333;
+}

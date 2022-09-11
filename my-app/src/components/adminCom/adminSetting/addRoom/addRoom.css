@@ -1,0 +1,13 @@
+.newRoom-wrapper{
+    width: 100%;
+    background-color: inherit;
+    height: max-content;
+    padding-right: 5rem;
+}
+
+.newRoom-addForm{
+    flex: 2;
+}
+.newRoom-roomInfo{
+    flex:3
+}

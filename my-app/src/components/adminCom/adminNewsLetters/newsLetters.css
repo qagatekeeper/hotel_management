@@ -1,0 +1,107 @@
+.nl-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+/* ===Top=== */
+.nl-top {
+  width: 100%;
+  background-color: var(--white);
+  padding: 48px 30px 90px;
+  margin-bottom: 2rem;
+}
+.nl-top h1 {
+  font-family: "open sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 72px;
+}
+.nl-top button {
+  margin-left: 15px;
+}
+
+/* ===Bottom=== */
+.nl-bottom {
+  padding: 15px 15px 25px;
+  width: 100%;
+  height: auto;
+  background-color: var(--white);
+  border-radius: 3px;
+}
+/* ===Bottom-Top=== */
+.nl-bottom-top-left {
+  gap: 0.4rem;
+}
+.nl-bottom-top-left select {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: #555;
+  background-color: var(--white);
+  border: 1px solid #ccc;
+  height: 30px;
+  transition: border 0.5s;
+}
+.nl-bottom-top-left select:focus {
+  border: 1px solid var(--color-link-blue);
+}
+.nl-bottom-top-left small {
+  font-size: 0.9rem;
+  color: #333333;
+}
+.nl-bottom-top-right {
+  gap: 0.4rem;
+}
+.nl-bottom-top-right label {
+  font-size: 1rem;
+  color: #555;
+  background-color: var(--white);
+}
+.nl-bottom-top-right input {
+  padding: 5px 10px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.nl-bottom-top-right input:focus {
+  border: 1px solid var(--color-link-blue);
+}
+
+/* ===Bottom-Center=== */
+
+.nl-bottom-center-table {
+  width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.nl-bottom-center-table thead,
+.nl-bottom-center-table tbody {
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+.nl-bottom-center-table thead tr th {
+  padding: 8px;
+  line-height: 1.5;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.nl-bottom-center-table tbody tr td {
+  padding: 12px;
+  line-height: 1.5;
+  vertical-align: top;
+  border: 1px solid #ddd;
+}
+.nl-bottom-center-table .edit-icon {
+  padding-right: 5px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.nl-bottom-center-table .btn-removeData {
+  background-color: rgb(196, 38, 38);
+}

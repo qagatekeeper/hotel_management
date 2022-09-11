@@ -1,0 +1,43 @@
+.bookedRooms-card {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border-top-color: #bce8f1;
+  text-align: center;
+}
+
+.bookedRooms-card i {
+  font-size: 5rem;
+  color: #4cb1cf;
+}
+.bookedRooms-card h1 {
+  font-size: 24px;
+  color: #4cb1cf;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 7px 0;
+  text-transform:capitalize;
+}
+.card-bottom {
+  width: 100%;
+  padding: 10px;
+  background-color: #4cb1cf;
+  color: #fff;
+  border-radius: 0 0 3px 3px;
+  gap: 0.4rem;
+ 
+}
+.card-bottom a button {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.card-bottom h2 {
+  font-size: 14px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: var(--white);
+  text-transform:capitalize !important;
+}

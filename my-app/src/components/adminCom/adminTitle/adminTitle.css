@@ -1,0 +1,20 @@
+.adminTitle {
+  margin: 3rem 0px 45px;
+  border-bottom: 1px solid #c7d1dd;
+  width: 100%;
+}
+.adminTitle h1 {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.adminTitle h1 span {
+  color: #999;
+  font-size: 65%;
+  padding-left: 0.8rem;
+}

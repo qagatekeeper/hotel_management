@@ -1,0 +1,35 @@
+.rooms-card {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.rooms-card i {
+  font-size: 5rem;
+}
+.rooms-card > h1 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  /* margin: 7px 0; */
+  text-transform:capitalize;
+}
+.rooms-card-last {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  border-radius: 0 0 3px 3px;
+}
+
+.rooms-card-last > h2 {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: var(--white);
+  text-transform:capitalize !important;
+}

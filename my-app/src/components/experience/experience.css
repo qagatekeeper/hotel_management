@@ -1,0 +1,121 @@
+.exp-wrapper {
+  width: 100vw;
+  height: auto;
+  padding: 0px 0px 6rem;
+  background-color: var(--white);
+}
+
+.exp-title {
+  text-align: center;
+  font-weight: 700;
+  padding: 60px 0px;
+  background-color: var(--bg-yellow);
+  color: var(--white);
+}
+
+.exp-link {
+  color: var(--white);
+  font-size: 23px;
+  letter-spacing: 3.5px;
+  transition: all 0.2s ease-in-out;
+}
+.exp-link:hover {
+  color: var(--black);
+}
+
+/*===========bottom===============*/
+
+.exp-content {
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  margin-top: 5rem;
+}
+
+.exp-text {
+  font-size: 1rem;
+  color: var(--bg-yellow);
+  line-height: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Federo", sans-serif;
+  font-weight: normal;
+}
+.exp-text span {
+  display: block;
+  font-size: 25px !important;
+  color: var(--black);
+}
+
+.exp-bottom {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*===========media query===============*/
+@media (max-width: 1080px) {
+  .exp-wrapper {
+    padding: 0px 0px 4rem;
+  }
+  .exp-link {
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+  .exp-content {
+    margin-top: 4rem;
+  }
+  .exp-text {
+    letter-spacing: 2px;
+  }
+  .exp-text span {
+    font-size: 22px !important;
+  }
+}
+@media (max-width: 1005px) {
+  .exp-bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .expCard-wrapper {
+  border: 0.2px solid var(--border-card);
+}
+}
+@media (max-width: 991px) {
+  .exp-title {
+    padding: 1rem 0px;
+  }
+  .exp-link {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+   .exp-text {
+    letter-spacing: 1.5px;
+  }
+  .exp-text span {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 736px) {
+  .exp-title {
+    padding: 0.8rem 0px;
+  }
+  .exp-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .exp-title {
+    padding: 0.5rem 0px;
+  }
+  .exp-link {
+    font-size: 12px;
+  }
+}
+@media (max-width: 414px) {
+  .exp-bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

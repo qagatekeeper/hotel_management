@@ -1,0 +1,144 @@
+.expCard-wrapper {
+  /* width:284px; */
+  height: 258px;
+  padding: 32px;
+  background-color: var(--bg-card);
+  /* font-size: 16px; */
+  /* color: #333333; */
+  /* font-weight: 700; */
+  border-right: 1px solid var(--border-card);
+  border-left: 1px solid var(--border-card);
+  transition: all 0.2s ease-in-out;
+}
+
+.expCard-icon {
+  font-size: 5em;
+  color: var(--bg-card-hover);
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  /* font-variant: normal; */
+  /* text-transform: none; */
+  line-height: 1;
+  /* -webkit-font-smoothing: antialiased; */
+  transition: transform 0.2s;
+}
+
+.expCard-title {
+  margin: 20px 0 10px 0;
+  padding: 20px 0 0 0;
+  font-size: 18px;
+  position: relative;
+  /* -webkit-transition: -webkit-transform 0.2s; */
+  /* -moz-transition: -moz-transform 0.2s; */
+  transition: transform 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.expCard-title::before {
+  content: "";
+  position: absolute;
+  background: var(--bg-yellow);
+  width: 160px;
+  height: 6px;
+  top: 0px;
+  left: 50%;
+  margin: -10px 0 0 -80px;
+  /* -webkit-transition: margin-top 0.2s; */
+  /* -moz-transition: margin-top 0.2s; */
+  transition: margin-top 0.3s;
+}
+
+.expCard-category {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--bg-yellow);
+  /* -webkit-transform: translateY(10px); */
+  /* -moz-transform: -moz-translateY(10px); */
+  /* -ms-transform: -ms-translateY(10px); */
+  transform: translateY(30px);
+  opacity: 0;
+  /* -webkit-transition: -webkit-transform 0.3s, opacity 0.2s; */
+  /* -moz-transition: -moz-transform 0.3s, opacity 0.2s; */
+  /* -webkit-transition: transform 0.3s, opacity 0.2s; */
+  transition: transform 0.3s, opacity 0.5s;
+}
+
+/* Hover styles */
+
+.expCard-wrapper:hover {
+  background: var(--bg-card-hover);
+}
+
+.expCard-wrapper:hover .expCard-icon {
+  color: var(--bg-yellow);
+  /* -webkit-transform: translateY(-20px); */
+  /* -moz-transform: translateY(-20px); */
+  /* -ms-transform: translateY(-20px); */
+  transform: translateY(-20px);
+}
+
+.expCard-wrapper:hover .expCard-title {
+  color: var(--white);
+  transform: translateY(-45px);
+  /* -webkit-transform: translateY(-45px); */
+  /* -moz-transform: translateY(-45px); */
+  /* -ms-transform: translateY(-45px); */
+}
+
+.expCard-wrapper:hover .expCard-title:before {
+  background: var(--white);
+  margin-top: 68px;
+}
+
+.expCard-wrapper:hover .expCard-category {
+  opacity: 1;
+  /* -webkit-transform: translateY(0px); */
+  /* -moz-transform: translateY(0px); */
+  /* -ms-transform: translateY(0px); */
+  transform: translateY(0px);
+}
+
+/* =====================  media queries ====================== */
+
+@media (max-width: 1080px) {
+  .expCard-wrapper {
+    height: 230px;
+  }
+  .expCard-icon {
+    font-size: 3rem;
+  }
+  .expCard-title {
+    font-size: 0.9em;
+  }
+  .expCard-category {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media (max-width: 414px) {
+  .expCard-wrapper {
+    height: 190px;
+  }
+  .expCard-icon {
+    font-size: 2.5rem;
+  }
+  .expCard-title {
+    font-size: 0.7rem;
+  }
+  .expCard-category {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+  }
+}

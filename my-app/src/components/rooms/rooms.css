@@ -1,0 +1,84 @@
+.rooms-wrapper {
+  background: var(--white);
+  width: 100vw;
+  height: auto;
+}
+
+.rooms {
+  padding: 5rem 0;
+}
+
+.rooms-card-wrapper {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 0 1.5rem;
+}
+
+.room-card {
+  box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 15%);
+  transition: transform 0.5s;
+}
+
+.room-card:hover {
+  transform: scale(1.1);
+}
+
+.room-card-top {
+  position: relative;
+}
+
+.room-card-image {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.room-card-roomCategory {
+  position: absolute;
+  font-size: 1.5rem;
+  color: var(--white);
+  padding: 0.4rem 1rem;
+  background: var(--bg-blue);
+  bottom: -1.2rem;
+  right: 0;
+  line-height: 1.1;
+  font-family: "Federo", sans-serif;
+  font-weight: 300;
+  display: block;
+}
+
+.room-card-rating {
+  margin: 0;
+  padding: 0;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.room-card-priseCategory {
+  margin: 1.5rem 1rem 1rem;
+}
+
+.room-card-prise {
+  color: var(--bg-blue);
+  letter-spacing: 1px;
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  font-family: "Federo", sans-serif;
+  font-weight: 600;
+}
+
+.room-card-prise span {
+  color: var(--color-red);
+  font-size: 31px;
+  margin-right: 5px;
+}
+
+.btn {
+  width: max-content;
+  padding: 0.5rem 2rem;
+  color: var(--black);
+  background: var(--bg-yellow);
+  font-size: 0.9rem;
+  border: 2px solid var(--border-yellow);
+}

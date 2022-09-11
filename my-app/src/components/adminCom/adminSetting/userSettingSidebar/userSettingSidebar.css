@@ -1,0 +1,23 @@
+.user-setting-sidebar-item {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.user-setting-sidebar-item:hover, .user-active {
+    background-color: #225081;
+}
+
+.user-setting-sidebar-item div {
+    color: var(--white);
+    font-size: 1rem;
+    font-family: "Lato",sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+}
+
+.user-setting-sidebar-item div i {
+    color: var(--white);
+    margin-right: 10px;
+}

@@ -1,0 +1,49 @@
+.serviceCard-wrapper {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.52);
+}
+
+.serviceCard-wrapper:hover{
+    background: rgba(255, 255, 255, 0.22);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.serviceCard-icon {
+  color: var(--bg-yellow);
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.serviceCard-title {
+  font-size: 1.5rem;
+  color: var(--white);
+  margin: 0.5rem 0rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: "Federo", sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  display: block;
+}
+
+.serviceCard-description {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--white);
+  text-align: left;
+  padding-left: 3rem;
+  line-height: 35px;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  display: block;
+  font-family: "Lato", sans-serif;
+}
+
+.serviceCard-description i {
+  color: var(--bg-yellow);
+  font-size: 20px;
+  margin-right: 10px;
+}

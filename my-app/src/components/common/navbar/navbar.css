@@ -1,0 +1,138 @@
+.navbar-wrapper {
+  width: 100vw;
+  height: auto;
+  /* padding: 0.6rem 0; */
+  background-color: var(--bg-blue);
+  color: var(--white);
+  position: relative;
+}
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand > a {
+  color: var(--white);
+  font-size: 31px;
+  letter-spacing: 5px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.navbar-brand > a > span {
+  color: var(--bg-yellow);
+}
+.navbar-brand > a > .para {
+  letter-spacing: 5.7px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--color-yellow);
+  font-weight: 600;
+  margin: 0;
+}
+.navbar-menu-list {
+  color: var(--white);
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.navbar-menu-link {
+  color: var(--white);
+  font-size: 13px;
+  padding: 10px 26.6px;
+  transition: all 0.2s ease-in-out;
+  margin: 0px 3px;
+}
+.navbar-menu-link:hover,
+.mobile-nav-item:hover {
+  color: var(--bg-yellow);
+  border-bottom-style: solid;
+  border-color: var(--bg-yellow);
+  border-width: 1px;
+  background-color: transparent;
+}
+.activeNavbar {
+  color: var(--bg-yellow) !important;
+  border-bottom-style: solid;
+  border-color: var(--bg-yellow);
+  border-width: 1px;
+  background-color: transparent;
+}
+
+/* ==================================== mobile  Styles ====================================*/
+
+.mobile-menu {
+  position: absolute;
+  background-color: var(--black);
+  width: 100vw;
+  text-align: center;
+  top: 67px;
+  padding: 20px 0;
+  transition: transform 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s,opacity 0.7s;
+  z-index: 1;
+  opacity: 0;
+}
+.overlay {
+  /* animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; */
+  opacity: 1;
+}
+.mobile-menu-button-wrapper {
+  z-index: 2;
+  /* border: 0.5px solid var(--bg-yellow); */
+}
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: max-content;
+}
+.mobile-nav-item {
+  padding: 10px;
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ==================================== Reasponsive Styles ====================================*/
+@media (max-width: 1080px) {
+  .navbar-wrapper {
+    padding: 0.4rem 0 0.4rem 0;
+  }
+  .navbar-brand {
+    font-size: 26px;
+  }
+  .para {
+    letter-spacing: 4.7px;
+    font-size: 10px;
+  }
+  .navbar-menu-link {
+    padding: 10px 23px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar-brand {
+    font-size: 23px;
+    letter-spacing: 4px;
+  }
+  .para {
+    letter-spacing: 3.2px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+  .para {
+    letter-spacing: 3px;
+  }
+  .navbar-menu-link {
+    padding: 0 20px 5px;
+    font-size: 11px;
+  }
+}

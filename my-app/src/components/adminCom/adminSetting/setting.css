@@ -1,0 +1,19 @@
+.userSetting-wrapper {
+  width: 100vw;
+  height: auto;
+  background: var(--white);
+}
+
+.userSetting-sidebar {
+  flex: 1;
+  background-color: #09192a;
+  color: white;
+  min-height: 92vh;
+}
+
+.userSetting-rightbar{
+  flex: 4;
+  background-color: #e5ebf2;
+  padding: 15px 36px;
+  text-align: left;
+}

@@ -1,0 +1,19 @@
+.admin-main {
+  width: 100vw;
+  height: auto;
+  background: var(--white);
+}
+
+.admin-sidebar {
+  flex: 1;
+  background-color: #09192a;
+  color: white;
+  min-height: 92vh;
+}
+
+.admin-Rightbar {
+  flex: 4;
+  background-color: #e5ebf2;
+  padding: 15px 36px;
+  text-align: left;
+}

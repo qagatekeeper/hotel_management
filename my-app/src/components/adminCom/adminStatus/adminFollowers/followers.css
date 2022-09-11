@@ -1,0 +1,45 @@
+.followers-wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: all ease 0.8s;
+}
+.followers-wrapper.open {
+  height: auto;
+  padding: 15px;
+  border: 1px solid #ebccd1;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.followers-item {
+  width: 100%;
+  padding: 20px 15px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #ebccd1;
+}
+
+.followers-table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.followers-table thead,
+.followers-table tbody {
+  vertical-align: middle;
+}
+
+.followers-table thead tr th {
+  padding: 8px;
+  line-height: 1.5;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.followers-table tbody tr td {
+  padding: 8px;
+  line-height: 1.5;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}

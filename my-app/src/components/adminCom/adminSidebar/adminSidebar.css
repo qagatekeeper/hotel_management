@@ -1,0 +1,25 @@
+.admin-sidebar-item {
+    padding: 0;margin: 0;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.admin-sidebar-item:hover,.active {
+    background-color: #225081;
+}
+
+.admin-sidebar-item a,.admin-sidebar-item div,.admin-sidebar-item a:hover {
+    color: var(--white);
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: "Lato",sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+}
+
+
+.admin-sidebar-item a i,.admin-sidebar-item div i {
+    color: var(--white);
+    margin-right: 10px;
+}

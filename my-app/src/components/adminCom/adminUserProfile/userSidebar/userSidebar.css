@@ -1,0 +1,20 @@
+.user-sidebar-item {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: #225081;
+}
+
+.user-sidebar-item a {
+    color: var(--white);
+    font-size: 1rem;
+    font-family: "Lato",sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+}
+
+.user-sidebar-item a i {
+    color: var(--white);
+    margin-right: 10px;
+}

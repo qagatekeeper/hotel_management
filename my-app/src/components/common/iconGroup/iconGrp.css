@@ -1,0 +1,37 @@
+.pre-navbar-logo {
+  font-size: 1rem;
+  height: 30px;
+  width: 30px;
+}
+
+.pre-navbar-logo a i {
+  color: var(--white);
+}
+
+.pre-navbar-logos > .facebook {
+  background-color: var(--bg-facebook);
+}
+
+.pre-navbar-logos >  .twitter {
+  background-color: var(--bg-twitter);
+}
+
+.pre-navbar-logos >  .google {
+  background-color: var(--bg-google);
+}
+
+.wifi {
+  margin-left: 1rem;
+  background-color: var(--bg-wifi);
+}
+
+@media all and (max-width: 900px) {
+  .pre-navbar-logos {
+    gap: 0.5rem;
+  }
+  .pre-navbar-logo {
+    font-size: 14px;
+    height: 25px;
+    width: 25px;
+  }
+}

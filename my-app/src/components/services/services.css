@@ -1,0 +1,21 @@
+.servixes-wrapper{
+    background-image: url(../../assets/images/services.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    padding: 100px 0;
+}
+
+.services-header{
+    color: var(--white);
+}
+
+.services-bottom{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.services-bottom-left{
+    border-right: 1px solid #b1b1b1;
+}

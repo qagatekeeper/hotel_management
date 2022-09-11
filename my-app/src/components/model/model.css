@@ -1,0 +1,72 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  border: 1ps solid red;
+  width: 600px;
+  margin: 30px auto;
+}
+.model-contants {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 30px;
+  min-height: 1rem;
+}
+
+.close {
+  cursor: pointer;
+  background: transparent;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  opacity: 0.2;
+  text-align: right;
+}
+
+.model-header h4 {
+  margin: 0;
+  padding: 0;
+  color: #0f2453;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+
+.model-header h4 span {
+  color: #ffce14;
+}
+
+.model-header img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.model-header h5 {
+  color: #000;
+  margin: 0;
+  padding-top: 15px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.model-header p {
+  color: #636363;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  word-spacing: 0.5px;
+  text-transform: none;
+  text-align: left;
+}

@@ -1,0 +1,46 @@
+/*=== pagination start ===*/
+.pagination small {
+  font-size: 1rem;
+  color: #333333;
+}
+
+.previous,
+.next {
+  background: transparent;
+  color: #555;
+  border: 1px solid #555;
+}
+
+.previous:hover,
+.next:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.previous > button,
+.next > button,
+.previous > button:hover,
+.next > button:hover {
+  background: transparent;
+}
+
+.previous {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.next {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.currentPage {
+  border-radius: 0px;
+}
+
+.disabled, .disabled > button {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+/*=== pagination end ===*/
